@@ -8,8 +8,12 @@ body {
   color: #17415f;
 }
 
-.logo {
+header .bottom_header .logo {
   padding: 8px 0;
+}
+
+.right-info, .iconbox-content {
+  font-family: Montserrat;
 }
 
 .wpcf7 .your-email {
