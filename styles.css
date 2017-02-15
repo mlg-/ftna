@@ -4,12 +4,44 @@ You can add your own CSS here.
 Click the help icon above to learn more.
 */
 
-body {
-  color: #17415f;
+.blue {
+  color: #15375D;
+}
+
+.green {
+  color: #51873A;
+}
+
+.margin-bottom {
+  margin-bottom: 20px !important;
+}
+
+/* */
+
+html {
+  margin-top: 0 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Montserrat;
+}
+
+p {
+  color: #0A0D11;
+  font-size: 16px;
 }
 
 header .bottom_header .logo {
   padding: 8px 0;
+}
+
+.iconbox h4 {
+  font-family: Montserrat;
+}
+
+.leading {
+  font-family: Montserrat;
+  font-size: 21px;
 }
 
 .right-info, .iconbox-content {
@@ -22,5 +54,35 @@ header .bottom_header .logo {
 
 .iconbox, .find-advisor {
   margin-top: 52px;
+}
+
+.copyright p {
+  color: darkgray;
+}
+
+.page-content {
+    padding: 30px 0px;
+}
+
+.btn-theme {
+  cursor: pointer;
+}
+
+hr.style18 { 
+  height: 30px; 
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 1px 0 0 0; 
+  border-radius: 20px; 
+} 
+hr.style18:before { 
+  display: block; 
+  content: ""; 
+  height: 30px; 
+  margin-top: -31px; 
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 0 0 1px 0; 
+  border-radius: 20px; 
 }
 
